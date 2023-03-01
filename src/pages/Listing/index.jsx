@@ -9,7 +9,7 @@ const Listing = () => {
   const { id } = useParams();
   const history = useHistory();
   useEffect(() => {
-    theCatAPI(`/images/search?breed_ids=${id}`)
+    theCatAPI(`/images/search?breed_ids=${id}&limit=100`)
       .then((res) => {
         setList(res.data);
         setLoading(false);
