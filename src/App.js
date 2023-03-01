@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="cat_api_project">
       <Switch>
         <Route exact path="/">
           <Home />
