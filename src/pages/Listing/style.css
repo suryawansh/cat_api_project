@@ -1,0 +1,27 @@
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#buttonWrapper {
+  width: 100%;
+}
+#buttonWrapper > button {
+  width: 10%;
+  border-radius: 20px;
+  align-self: center;
+  box-shadow: wheat 4px 4px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+#gallery img {
+  box-shadow: thistle 2px 2px;
+  max-width: auto;
+  max-height: 350px;
+  object-fit: contain;
+  max-width: 100%;
+}

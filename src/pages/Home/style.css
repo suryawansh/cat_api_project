@@ -1,0 +1,31 @@
+#listing {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  box-shadow: thistle 2px 2px;
+  max-width: 350px;
+  max-height: 200px;
+  border-radius: 20px;
+  border: 1px solid thistle;
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.card:hover {
+  box-shadow: black 4px 4px;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 15px;
+  text-align: left;
+  overflow: hidden;
+  max-height: 100px;
+}
